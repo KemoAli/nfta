@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420034419075",
+    "firebase_url": "https://nftabusapp.firebaseio.com",
+    "project_id": "nftabusapp",
+    "storage_bucket": "nftabusapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420034419075:android:1ba8d4062465aa2d",
+        "android_client_info": {
+          "package_name": "schedule.busapp.nfta.nftabus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420034419075-mekqhju348ooek2c16ns1ls9pqajubm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "schedule.busapp.nfta.nftabus",
+            "certificate_hash": "0777e3e7fc8a04548543e7ff35a2316358edca37"
+          }
+        },
+        {
+          "client_id": "420034419075-6al18v4mk9vficfnkuphfdjk9jv8v8c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzua5IyTLlqRq3_ipdJsQP0tCSdgJbzo0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420034419075-6al18v4mk9vficfnkuphfdjk9jv8v8c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

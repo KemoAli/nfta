@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StopDetails"
+    tools:showIn="@layout/activity_stop_details">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:id="@+id/stop_name_title"
+                android:hint="Stop Name: "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/stop_name_title"
+                android:id="@+id/stop_name"
+                android:hint="Stop name"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/bus_direction_title"
+                android:hint="Bus Direction: "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="48dp"
+                android:layout_toRightOf="@+id/bus_direction_title"
+                android:id="@+id/bus_direction"
+                android:hint="Bus Direction"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/buses_title"
+                android:hint="Buses at this stop: "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/buses_title"
+                android:id="@+id/buses"
+                android:hint="Buses"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/next_bus_time"
+                android:hint="Next Bus Arriving: "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/next_bus_time"
+                android:hint="Next Bus Arriving"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
